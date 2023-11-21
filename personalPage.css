@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+
+/* 螢幕最小寬度大於582且最大寬度小於1024啟用以下程式碼 */
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    h4 {
+        font-size: 25px !important;
+    }
+    .present {
+        line-height: 35px;
+    }
+    .aboutme {
+        padding-bottom: 5px;
+    }
+    .phone-padding {
+        padding-bottom: 10px;
+    }
+    .card {
+        width: 320px;
+        /* margin: auto; */
+        margin-bottom: 20px !important;
+    }
+    .photo-div {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+}
+
+
+/* 螢幕最大寬度小於582啟用以下程式碼 */
+
+@media screen and (max-width: 576px) {
+    h4 {
+        font-size: 14px !important;
+    }
+    .present {
+        line-height: 25px;
+    }
+    .aboutme {
+        padding-bottom: 10px;
+    }
+    .phone-padding {
+        padding-bottom: 10px;
+    }
+    .card {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 20px !important;
+    }
+    .photo-div {
+        text-align: center;
+        margin-top: 20 px !important;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.my-carousel {
+    overflow: hidden;
+}
+
+#bird-name {
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgba(46, 45, 45, 0.5) !important;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+
+#bird-name h4 {
+    padding-top: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.work-set {
+    height: 55px;
+}
+
+.personal-present {
+    height: 55px;
+}
+
+.about-me {
+    height: 55px;
+}
+
+.speciality {
+    height: 55px;
+}
+
+.photo-div {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.my-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.link-project {
+    color: black;
+    text-decoration: none;
+}
+
+.container-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.row-wrapper {
+    margin: auto;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 340px;
+    margin-top: 20px !important;
+    margin: auto;
+}
