@@ -1,4 +1,2 @@
-# Ryan'Blog 網址:
-https://ryan45758.github.io/personal-page/personalPage.html
-## 網站全貌:<br>
-![](https://i.ibb.co/Ch8kb8s/464979.jpg)
+# 網址:
+https://edwards414.github.io/school_ws/main.html
